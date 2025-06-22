@@ -9,16 +9,6 @@
 .env.production
 
 # Laravel storage & cache
-
-# Ignore all .key files (like encryption keys)
-storage/*.key
-
-# But include everything else in storage (logs, uploads, etc.)
-!storage/**
-
-# Public storage symlink folder (ignore if you use this)
-public/storage
-
 # Laravel cache & compiled files
 /public/build
 /public/hot
